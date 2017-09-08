@@ -1,5 +1,4 @@
-$gray : #d3d3d3;   //$gray used instead of specifying the hex code multiple times
-$green : #75B975;
+$gray : #d3d3d3;
 
 .box {
   background: $gray;
@@ -8,7 +7,7 @@ $green : #75B975;
   .button {
     font-weight: bold;
     text-align: center;
-    background: $green;
+    background: red;
     color: white;
   }
 }
