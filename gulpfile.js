@@ -21,8 +21,7 @@ var lib = require('bower-files')({
 });
 
 var browserSync = require('browser-sync').create();
-
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('jshint', function(){
@@ -88,6 +87,7 @@ gulp.task("build", ['clean'], function(){
 
 gulp.task('serve', function() {
   browserSync.init({
+    open: false,
     server: {
       baseDir: "./",
       index: "index.html"
