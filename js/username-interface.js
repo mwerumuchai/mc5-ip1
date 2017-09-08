@@ -1,5 +1,5 @@
 var apiKey = require('./../.env').apiKey;
-var Repo = require ('./../js/username.js').Repo
+var Repo = require ('./../js/username.js').Repo;
 
 $(document).ready(function() {
   var newUser = new Repo();

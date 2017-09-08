@@ -3,6 +3,7 @@
 
   <head>
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Github User Lookup</title>
@@ -13,18 +14,18 @@
     <div class="container">
 
       <form id="formId">
-        <div>
-          <h2>Enter GitHub user name:</h2>
-          <input id="userInput" type="text" name="name" class="form-control" placeholder="Username">
-        </div>
+        <h3>Enter Your Github User Name here:</h3>
+        <input id="userInput" type="text" name="name" class="form-control" placeholder="username">
         <button type="submit" class="button btn btn-info" id="userInfo">Search</button>
       </form>
-
-      <div class="UserName"></div>
-      <div class="NumberOfRepos"></div>
-      <div class="Img"></div>
-      <div class="Repos"></div>
-    </div>
+      <div class="col-md-6">
+        <div class="UserName"></div>
+        <div class="Img"></div>
+      </div>
+      <div class="col-md-6">
+        <div class="NumberOfRepos"></div>
+        <div class="Repos"></div>
+      </div>
     </div>
   </body>
 
