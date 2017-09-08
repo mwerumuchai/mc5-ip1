@@ -1,13 +1,19 @@
 $gray : #d3d3d3;
+$green : #75B975;
 
-.box {
-  background: $gray;
-  border: 3px solid black;
-  padding: 40px 80px;
-  .button {
-    font-weight: bold;
-    text-align: center;
-    background: red;
-    color: white;
-  }
+
+#formId{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+body{
+  text-align: left;
+
+}
+
+img {
+  height: 350px;
+  opacity: 0.9;
 }
