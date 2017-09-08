@@ -4,10 +4,11 @@ var Repo = require ('./../js/username.js').Repo;
 $(document).ready(function() {
   var newUser = new Repo();
   $("#formId").submit(function(event) {
-    $('.userName').empty();
+    $('.showUserName').empty();
     $('.Img').empty();
     $('.NumberOfRepos').empty();
     $('.Repos').empty();
+    $('.newUser').empty();
     event.preventDefault();
     var userName = $('#userInput').val();
     $('#userInput').val('');
