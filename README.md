@@ -10,7 +10,7 @@ You will need to use a github API key, and create an .env file on the top level 
 
 ## Other details
 
-_HTML, CSS, Bootstrap, JavaScript, JQuery, GitHub API._
+HTML, CSS, Bootstrap, JavaScript, JQuery, GitHub API.
 
 ### License
 
