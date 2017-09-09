@@ -6,9 +6,9 @@ exports.Repo = function() {
 
 exports.Repo.prototype.getRepos = function(userName,public_repos,avatar_url) {
   $.get('https://api.github.com/users/' + userName + '?access_token=' + apiKey).then(function(response) {
-    
-    $('.showUserName').append('<h4>Username:' + response.login + '</h4>');
-    $('.NumberOfRepos').append('<h4>No. of respositories:' + response.public_repos + '</h4>');
+
+    $('.showUserName').append('<h4><strong><i>Username: ' + response.login + '</i></strong></h4>');
+    $('.NumberOfRepos').append('<h4><strong><i>No. of respositories: ' + response.public_repos + '</i></strong></h4>');
     $('.Img').append("<img src=" + response.avatar_url + ">");
 
   }).fail(function(error) {
